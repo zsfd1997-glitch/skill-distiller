@@ -8,6 +8,16 @@ you repeat across sessions, and distills them into skills. Inspired by the
 self-improvement loop in [Hermes Agent](https://github.com/NousResearch/hermes-agent),
 but packaged as a plugin you drop in — no separate agent to install.
 
+## Status — experimental, under active rework
+
+⚠️ **Not useful out of the box yet.** End-to-end testing on real session history
+showed the v0.1 frequency-based scanner surfaces mostly generic tool noise
+(`Read>Edit`, `Bash>Bash`) rather than reusable workflows. Telling a genuine
+repeatable workflow apart from incidental tool usage — the signal-to-noise core —
+is the hard, valuable part, and it's being reworked toward **LLM-based semantic
+detection** (v0.2). Until then, treat this repo as a design/architecture
+reference, not a working tool; don't rely on the auto-harvested output.
+
 ## The three gates (why it doesn't pollute your library)
 
 Naively "auto-creating skills from repeated actions" produces a pile of junk.
