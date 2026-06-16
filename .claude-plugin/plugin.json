@@ -1,0 +1,6 @@
+{
+  "name": "skill-distiller",
+  "version": "0.1.0",
+  "description": "Distill repeated actions from Claude Code session history into reviewed, opt-in skills. Hermes-style three-gate quality control (review agent + curator + human opt-in).",
+  "author": "Jasonzsfd1997"
+}

@@ -1,0 +1,4 @@
+node_modules/
+*.log
+.DS_Store
+# runtime state lives in ~/.claude/skill-distiller/, never in the repo
